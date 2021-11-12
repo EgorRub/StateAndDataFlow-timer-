@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7469C04E273EAC1A00CF0001 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469C04D273EAC1900CF0001 /* ButtonView.swift */; };
+		7469C050273EADF200CF0001 /* ButtonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469C04F273EADF200CF0001 /* ButtonAppearance.swift */; };
+		74AD255D273E7AFA00DDCAED /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD255C273E7AFA00DDCAED /* DataManager.swift */; };
 		74CC28B42731B2A70052A246 /* StateAndDataFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC28B32731B2A70052A246 /* StateAndDataFlowApp.swift */; };
 		74CC28B62731B2A70052A246 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC28B52731B2A70052A246 /* ContentView.swift */; };
 		74CC28B82731B2B00052A246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CC28B72731B2B00052A246 /* Assets.xcassets */; };
 		74CC28BB2731B2B00052A246 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CC28BA2731B2B00052A246 /* Preview Assets.xcassets */; };
+		74CC28C22731BF0E0052A246 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC28C12731BF0D0052A246 /* TimeCounter.swift */; };
+		74CC28C42731C7500052A246 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC28C32731C7500052A246 /* LoginView.swift */; };
+		74CC28C62731C8AE0052A246 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC28C52731C8AE0052A246 /* UserManager.swift */; };
+		74CC28C82731CC630052A246 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC28C72731CC630052A246 /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7469C04D273EAC1900CF0001 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		7469C04F273EADF200CF0001 /* ButtonAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAppearance.swift; sourceTree = "<group>"; };
+		74AD255C273E7AFA00DDCAED /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		74CC28B02731B2A70052A246 /* StateAndDataFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateAndDataFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74CC28B32731B2A70052A246 /* StateAndDataFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndDataFlowApp.swift; sourceTree = "<group>"; };
 		74CC28B52731B2A70052A246 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74CC28B72731B2B00052A246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74CC28BA2731B2B00052A246 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74CC28C12731BF0D0052A246 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		74CC28C32731C7500052A246 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		74CC28C52731C8AE0052A246 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		74CC28C72731CC630052A246 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				74CC28B32731B2A70052A246 /* StateAndDataFlowApp.swift */,
+				74CC28C12731BF0D0052A246 /* TimeCounter.swift */,
 				74CC28B52731B2A70052A246 /* ContentView.swift */,
+				74CC28C32731C7500052A246 /* LoginView.swift */,
+				74AD255C273E7AFA00DDCAED /* DataManager.swift */,
+				74CC28C52731C8AE0052A246 /* UserManager.swift */,
+				74CC28C72731CC630052A246 /* StarterView.swift */,
+				7469C04D273EAC1900CF0001 /* ButtonView.swift */,
+				7469C04F273EADF200CF0001 /* ButtonAppearance.swift */,
 				74CC28B72731B2B00052A246 /* Assets.xcassets */,
 				74CC28B92731B2B00052A246 /* Preview Content */,
 			);
@@ -137,7 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CC28C22731BF0E0052A246 /* TimeCounter.swift in Sources */,
 				74CC28B62731B2A70052A246 /* ContentView.swift in Sources */,
+				7469C04E273EAC1A00CF0001 /* ButtonView.swift in Sources */,
+				74CC28C82731CC630052A246 /* StarterView.swift in Sources */,
+				7469C050273EADF200CF0001 /* ButtonAppearance.swift in Sources */,
+				74AD255D273E7AFA00DDCAED /* DataManager.swift in Sources */,
+				74CC28C42731C7500052A246 /* LoginView.swift in Sources */,
+				74CC28C62731C8AE0052A246 /* UserManager.swift in Sources */,
 				74CC28B42731B2A70052A246 /* StateAndDataFlowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
